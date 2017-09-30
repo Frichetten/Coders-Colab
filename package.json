@@ -1,9 +1,30 @@
 {
-  "name": "Code-Home",
-  "main": "server.js",
+  "name": "coders-colab",
+  "version": "1.0.0",
+  "description": "An Open Source collaboration website dedicated to giving smaller projects more visibility.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
   "dependencies": {
     "express": "*",
     "mongoose": "*",
-    "body-parser": "*"
-  }
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frichetten/Coders-Colab.git"
+  },
+  "author": "Nick Frichette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frichetten/Coders-Colab/issues"
+  },
+  "homepage": "https://github.com/Frichetten/Coders-Colab#readme"
 }
