@@ -7,10 +7,15 @@ var app	 	= express();
 var bodyParser 	= require('body-parser');
 
 
+
 // Basic routing
 app.get('/', function(req, res) {
-  res.send("Hello");
-}); 
+  res.render('views/index', { title: 'Express' });
+});
+
+function myController($scope) {
+  $scope.title = "Hello There!";
+} 
 
 
 // Start
